@@ -1,0 +1,190 @@
+[
+{
+  "_id": {
+    "$oid": "573a1391f29313caabcd7c9e"
+  },
+  "plot": "Peter Pan enters the nursery of the Darling children and, with the help of fairy dust, leads them off to Never Never Land, where they meet the nefarious Captain Hook.",
+  "genres": [
+    "Adventure",
+    "Fantasy",
+    "Family"
+  ],
+  "runtime": 105,
+  "cast": [
+    "George Ali",
+    "Esther Ralston",
+    "Cyril Chadwick",
+    "Mary Brian"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BODkwOTUxMDkyMV5BMl5BanBnXkFtZTgwOTA1MDQ0MjE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Peter Pan",
+  "fullplot": "Peter Pan, the kid who doesn't want to grow up, arrives at the Darling home searching for his shadow. He meets the Darling children and takes them to Never-Never Land, where they will fight against Capt. Hook and his pirate ship and crew. At the end the children will be back in their warm beds.",
+  "countries": [
+    "USA"
+  ],
+  "released": 111,
+  "directors": [
+    "Herbert Brenon"
+  ],
+  "writers": [
+    "J.M. Barrie (play)",
+    "Willis Goldbeck (screenplay)"
+  ],
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": "2015-08-09 01:05:18.003000000",
+  "year": 1924,
+  "imdb": {
+    "rating": 7.4,
+    "votes": 589,
+    "id": 15224
+  },
+  "type": "movie",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.4,
+      "numReviews": 6168,
+      "meter": 76
+    },
+    "dvd": {
+      "$date": "1999-11-23T00:00:00Z"
+    },
+    "critic": {
+      "rating": 7.9,
+      "numReviews": 8,
+      "meter": 100
+    },
+    "lastUpdated": {
+      "$date": "2015-07-27T18:39:19Z"
+    },
+    "rotten": 0,
+    "production": "Paramount Pictures",
+    "fresh": 8
+  }
+},
+{
+  "_id": {
+    "$oid": "573a1391f29313caabcd7e6e"
+  },
+  "plot": "A fire in the mountains drive a wolf pack into the nearby desert where they terrorize the local residents. The leader of the wolf pack is Lobo, actually a halfbreed (Rin Tin Tin). When the ...",
+  "genres": [
+    "Adventure",
+    "Romance",
+    "Western"
+  ],
+  "runtime": 74,
+  "rated": "PASSED",
+  "cast": [
+    "Rin Tin Tin",
+    "Nanette",
+    "Charles Farrell",
+    "June Marlowe"
+  ],
+  "title": "Clash of the Wolves",
+  "fullplot": "A fire in the mountains drive a wolf pack into the nearby desert where they terrorize the local residents. The leader of the wolf pack is Lobo, actually a halfbreed (Rin Tin Tin). When the pack is discovered hunting a herd of cows, a posse gives chase. Lobo leaves his pack to lead the posse away. He is injured and found by a local prospector, Dave Weston (Charles Farrell). The prospector nurses Lobo back to health and the two become close friends. Meanwhile, Weston has made a Borax find in the area. His girl friend May Barstowe (June Marlowe), daughter of a wealthy rancher, is pleased. However the local chemist, Borax Horton (Pat Hartigan), actually a claim jumper, plans to steal the claim. In a sandstorm he is able to shoot Weston and leave the prospector for dead in the desert. Lobo tries to get a message to May, but runs afoul of Horton. Finally, he is able to bring May to Weston, who are then both terrorized by Horton. Lobo calls upon his pack to eliminate the menace, allowing for the young lovers to finally find happiness. Lobo also finds happiness being reunited with his mate, Nannette.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "111"
+  },
+  "directors": [
+    "Noel M. Smith"
+  ],
+  "writers": [
+    "Charles Logue (by)"
+  ],
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": "2015-04-17 00:50:41.207000000",
+  "year": 1925,
+  "imdb": {
+    "rating": 6.7,
+    "votes": 188,
+    "id": 15687
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.6,
+      "numReviews": 416,
+      "meter": 60
+    },
+    "lastUpdated": {
+      "$date": "2015-08-24T18:53:23Z"
+    }
+  },
+  "num_mflix_comments": 0
+},
+{
+  "_id": {
+    "$oid": "573a1390f29313caabcd4803"
+  },
+  "plot": "Cartoon figures announce, via comic strip balloons, that they will move - and move they do, in a wildly exaggerated style.",
+  "genres": [
+    "Animation",
+    "Short",
+    "Comedy"
+  ],
+  "runtime": 7,
+  "cast": [
+    "Winsor McCay"
+  ],
+  "num_mflix_comments": 0,
+  "poster": "https://m.media-amazon.com/images/M/MV5BYzg2NjNhNTctMjUxMi00ZWU4LWI3ZjYtNTI0NTQxNThjZTk2XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Winsor McCay, the Famous Cartoonist of the N.Y. Herald and His Moving Comics",
+  "fullplot": "Cartoonist Winsor McCay agrees to create a large set of drawings that will be photographed and made into a motion picture. The job requires plenty of drawing supplies, and the cartoonist must also overcome some mishaps caused by an assistant. Finally, the work is done, and everyone can see the resulting animated picture.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": {
+      "$numberLong": "-1853539200000"
+    }
+  },
+  "directors": [
+    "Winsor McCay",
+    "J. Stuart Blackton"
+  ],
+  "writers": [
+    "Winsor McCay (comic strip \"Little Nemo in Slumberland\")",
+    "Winsor McCay (screenplay)"
+  ],
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": "2015-08-29 01:09:03.030000000",
+  "year": 1911,
+  "imdb": {
+    "rating": 7.3,
+    "votes": 1034,
+    "id": 1737
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.4,
+      "numReviews": 89,
+      "meter": 47
+    },
+    "lastUpdated": {
+      "$date": "2015-08-20T18:51:24Z"
+    }
+  }
+}
+]

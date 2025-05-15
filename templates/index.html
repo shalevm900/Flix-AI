@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Next - Online Movie and TV Series Responsive Entertainment Website Template</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/png" href="static/images/logo/favicon.ico">
+  <!-- Bootstrap v5.3.3 css -->
+  <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- owlcarousel css -->
+  <link rel="stylesheet" href="static/vendor/owlcarousel/assets/owl.carousel.min.css">
+  <!-- classynav css -->
+  <link rel="stylesheet" href="static/vendor/classy-nav/classy-nav.css">
+  <!-- magnific popup css -->
+  <link rel="stylesheet" href="static/vendor/magnific/magnific-popup.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="static/css/responsive.css">
+</head>
+
+<body class="overview">
+
+<script>
+  var favorites = "{{ favorites }}";
+</script>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+                <div id="loginMessage" class="mt-3 text-center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Voice Recording Modal -->
+<div class="modal fade" id="voiceRecordingModal" tabindex="-1" aria-labelledby="voiceRecordingModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="voiceRecordingModalLabel">Voice Search</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="recording-status text-center mb-3">
+                    <i class="fa fa-microphone fa-3x text-danger"></i>
+                    <p class="mt-2">Click to start recording</p>
+                </div>
+                <div class="recording-controls text-center">
+                    <button id="startRecording" class="btn btn-danger">
+                        <i class="fa fa-microphone"></i> Start Recording
+                    </button>
+                    <button id="stopRecording" class="btn btn-secondary" style="display: none;">
+                        <i class="fa fa-stop"></i> Stop Recording
+                    </button>
+                    <button id="sendRecording" class="btn btn-primary" style="display: none;">
+                        <i class="fa fa-paper-plane"></i> Send
+                    </button>
+                </div>
+                <div id="recordingStatus" class="mt-3 text-center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- /////////////////////////////////////////////////////////////////
+                     sidebar part start
+////////////////////////////////////////////////////////////////// -->
+  <div class="sidebar sb-left">
+    <nav class="mobile-nav">
+      <ul>
+        <li class="active"><a href="index.html"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a></li>
+        <li><a href="top-movies.html"><i class="fa fa-trophy"></i><span>Favorites</span></a></li>
+        ul>
+    </nav>
+  </div>
+  <!-- /////////////////////////////////////////////////////////////////
+                     sidebar part end
+////////////////////////////////////////////////////////////////// -->
+  <main id="site-container">
+    <div id="main">
+      <!-- /////////////////////////////////////////////////////////////////
+                     main-menu part start
+////////////////////////////////////////////////////////////////// -->
+      <div id="main-menu">
+        <header class="main-header">
+          <div class="inner-container">
+            <div class="sb-toggle-left">
+              <span class="menu-icon"></span>
+              <span class="menu-icon-text">Menu</span>
+            </div>
+            <a href="/" class="logo">
+              <img src="static/images/logo/logo.png" alt="">
+            </a>
+            <div class="header-area">
+              <!-- Main Header Start -->
+              <div class="main-header-area">
+                <div class="classy-nav-container breakpoint-off">
+                  <!-- Classy Menu -->
+                  <nav class="classy-navbar justify-content-between" id="web-main-menu">
+
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                      <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                      <!-- Menu Close Button -->
+                      <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                      </div>
+
+                      <!-- Nav Start -->
+                      <div class="classynav">
+                        <ul id="nav">
+                          <li><a href="index.html">Home</a>
+                          </li>
+                          <li><a href="#">Favorites</a></li>
+                          <li>
+                            <div class="user">
+                              <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="user-profile.html" role="button"
+                                  data-bs-toggle="dropdown" aria-expanded="false">
+                                  <!-- Profile -->
+                                  <img src="static/images/logo/profile-logo.png" alt="">
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                  {% if userIsLogged %}
+                                    <li id="logoutBtn" style="display:block;"><a  class="dropdown-item" href="#"><i class="me-2 fa-solid fa-right-from-bracket"></i> Logout</a></li>
+                                    <li id="loginBtn" style="display:none;"><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal" href="#"><i class="me-2 fa-solid fa-right-from-bracket"></i> LOGIN</a></li>
+                                  {% else %}
+                                    <li id="logoutBtn" style="display:none;"><a  class="dropdown-item" href="#"><i class="me-2 fa-solid fa-right-from-bracket"></i> Logout</a></li>
+                                    <li id="loginBtn" style="display:block;"><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal" href="#"><i class="me-2 fa-solid fa-right-from-bracket"></i> LOGIN</a></li>
+
+                                  {% endif %}
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <!-- Nav End -->
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- secondary header start -->
+        <div class="header-secondary">
+          <div class="inner-container">
+            <nav class="filters">
+              <ul>
+                <li class="dropdown genre-filter">
+                  <div class="dropdown-toggle" role="listbox" data-toggle="dropdown" aria-expanded="true">Genre<i
+                      class="fa fa-angle-down"></i></div>
+                  <ul class="dropdown-menu dropdown-menu-large">
+                    <li><a data-type="genre" href="#!">Action</a></li>
+                    <li><a data-type="genre" href="#!">Adventure</a></li>
+                    <li><a data-type="genre" href="#!">Sci-Fi</a></li>
+                    <li><a data-type="genre" href="#!">Documentary</a></li>
+                    <li><a data-type="genre" href="#!">Drama</a></li>
+                    <li><a data-type="genre" href="#!">Mystery</a></li>
+                    <li><a data-type="genre" href="#!">Thriller</a></li>
+                    <li><a data-type="genre" href="#!">Sport</a></li>
+                    <li><a data-type="genre" href="#!">Animation</a></li>
+                    <li><a data-type="genre" href="#!">Family</a></li>
+                    <li><a data-type="genre" href="#!">Fantasy</a></li>
+                    <li><a data-type="genre" href="#!">History</a></li>
+                    <li><a data-type="genre" href="#!">War</a></li>
+                    <li><a data-type="genre" href="#!">Biography</a></li>
+                    <li><a data-type="genre" href="#!">Horror</a></li>
+                    <li><a data-type="genre" href="#!">Comedy</a></li>
+                    <li><a data-type="genre" href="#!">Crime</a></li>
+                    <li><a data-type="genre" href="#!">Romance</a></li>
+                    <li><a data-type="genre" href="#!">Music</a></li>
+                    <li><a data-type="genre" href="#!">News</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown genre-filter">
+                  <div class="dropdown-toggle" role="listbox" data-toggle="dropdown">Year<i
+                      class="fa fa-angle-down"></i></div>
+                  <ul class="dropdown-menu dropdown-menu-large">
+                    <li><a data-type="year" href="#!">2020</a></li>
+                    <li><a data-type="year" href="#!">2019</a></li>
+                    <li><a data-type="year" href="#!">2018</a></li>
+                    <li><a data-type="year" href="#!">2017</a></li>
+                    <li><a data-type="year" href="#!">2016</a></li>
+                    <li><a data-type="year" href="#!">2015</a></li>
+                    <li><a data-type="year" href="#!">2014</a></li>
+                    <li><a data-type="year" href="#!">2013</a></li>
+                    <li><a data-type="year" href="#!">2012</a></li>
+                    <li><a data-type="year" href="#!">2011</a></li>
+                    <li><a data-type="year" href="#!">2010</a></li>
+                    <li><a data-type="year" href="#!">2009</a></li>
+                    <li><a data-type="year" href="#!">2008</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown genre-filter">
+                  <div class="dropdown-toggle" role="listbox" data-toggle="dropdown">Country<i
+                      class="fa fa-angle-down"></i></div>
+                  <ul class="dropdown-menu dropdown-menu-large">
+                    <li><a data-type="country" href="#">Argentina</a></li>
+                    <li><a data-type="country" href="#">Australia</a></li>
+                    <li><a data-type="country" href="#">Canada</a></li>
+                    <li><a data-type="country" href="#">China</a></li>
+                    <li><a data-type="country" href="#">France</a></li>
+                    <li><a data-type="country" href="#">Germany</a></li>
+                    <li><a data-type="country" href="#">India</a></li>
+                    <li><a data-type="country" href="#">Italy</a></li>
+                    <li><a data-type="country" href="#">Spain</a></li>
+                    <li><a data-type="country" href="#">Korea</a></li>
+                    <li><a data-type="country" href="#">United Kingdom</a></li>
+                    <li><a data-type="country" href="#">USA</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown abc-filter">
+                  <div class="dropdown-toggle" role="listbox" data-toggle="dropdown">ABC<i class="fa fa-angle-down"></i>
+                  </div>
+                  <ul class="dropdown-menu ">
+                    <li class="abc" data-type="letter"><a href="#">#</a></li>
+                    <li class="abc" data-type="letter"><a href="#">A</a></li>
+                    <li class="abc" data-type="letter"><a href="#">B</a></li>
+                    <li class="abc" data-type="letter"><a href="#">C</a></li>
+                    <li class="abc" data-type="letter"><a href="#">D</a></li>
+                    <li class="abc" data-type="letter"><a href="#">E</a></li>
+                    <li class="abc" data-type="letter"><a href="#">F</a></li>
+                    <li class="abc" data-type="letter"><a href="#">G</a></li>
+                    <li class="abc" data-type="letter"><a href="#">H</a></li>
+                    <li class="abc" data-type="letter"><a href="#">I</a></li>
+                    <li class="abc" data-type="letter"><a href="#">J</a></li>
+                    <li class="abc" data-type="letter"><a href="#">K</a></li>
+                    <li class="abc" data-type="letter"><a href="#">L</a></li>
+                    <li class="abc" data-type="letter"><a href="#">M</a></li>
+                    <li class="abc" data-type="letter"><a href="#">N</a></li>
+                    <li class="abc" data-type="letter"><a href="#">O</a></li>
+                    <li class="abc" data-type="letter"><a href="#">P</a></li>
+                    <li class="abc" data-type="letter"><a href="#">Q</a></li>
+                    <li class="abc" data-type="letter"><a href="#">R</a></li>
+                    <li class="abc" data-type="letter"><a href="#">S</a></li>
+                    <li class="abc" data-type="letter"><a href="#">T</a></li>
+                    <li class="abc" data-type="letter"><a href="#">V</a></li>
+                    <li class="abc" data-type="letter"><a href="#">W</a></li>
+                    <li class="abc" data-type="letter"><a href="#">Y</a></li>
+                    <li class="abc" data-type="letter"><a href="#">Z</a></li>
+                    
+                  </ul>
+                </li>
+                <li class="search">
+
+                    <input id="search" name="s" type="search" class="search-input" value="" placeholder="Search...">
+                  <i class="fa fa-search"></i>
+                  <div class="live-search"></div>
+                </li>
+                <li class="record">
+                  <i class="fa fa-microphone"></i>
+                </li>
+              </ul>
+            </nav>
+            
+          </div>
+        </div>
+        <!-- secondary header end -->
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////
+                     main-menu part end
+////////////////////////////////////////////////////////////////// -->
+
+      
+
+      <!-- /////////////////////////////////////////////////////////////////
+                     banner part start
+////////////////////////////////////////////////////////////////// -->
+      <div class="banner-area banner-background">
+        <div class="container">
+          <br/><br/>
+
+        </div>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////
+                     banner part end
+////////////////////////////////////////////////////////////////// -->
+
+      <!-- /////////////////////////////////////////////////////////////////
+                     content part start
+////////////////////////////////////////////////////////////////// -->
+      <section id="content" class="inner-container">
+        <div class="container">
+          <div class="heading-section">
+            <h4>Movies for You</h4>
+          </div>
+          <div id="item-container" class="item-container">
+          </div>
+
+        </div>
+      </section>
+
+      <section id="pagination" class="inner-container">
+        <div class="container">
+          <div class="heading-section">
+            <h4>Pagination</h4>
+          </div>
+            <div class="pagination">
+              <div class="pagginationButton prev">Prev</div>
+
+              <div style="padding-left:20px">&nbsp;</div>
+
+              <div class="pagginationButton next">Next</div>
+            </div>
+        </div>
+        <div style="margin-bottom:100px;">&nbsp;</div>
+      </section>
+
+      <!-- /////////////////////////////////////////////////////////////////
+                     content part end
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     Coming Out part start
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     Coming Out part end
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     download-movie part start
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     download-movie part end
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     trailer blog part start
+////////////////////////////////////////////////////////////////// -->
+      
+      <!-- /////////////////////////////////////////////////////////////////
+                     trailer blog part end
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     footer part start
+////////////////////////////////////////////////////////////////// -->
+      <div class="pg-footer">
+        <footer class="footer">
+          <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"
+            preserveAspectRatio="none">
+            <path class="footer-wave-path"
+              d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+            </path>
+          </svg>
+          <div class="footer-copyright">
+            <div class="footer-social-links">
+              <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
+                <path class="footer-social-amoeba-path"
+                  d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z">
+                </path>
+              </svg>
+              <a class="footer-social-link icon1" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a class="footer-social-link icon2" href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+
+              <a class="footer-social-link icon3" href="#">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a class="footer-social-link icon4" href="#">
+                <i class="fa-brands fa-reddit-alien"></i>
+              </a>
+            </div>
+            <div class="footer-copyright-wrapper">
+              <div class="footer-copyright-text">
+                <div class="footer-copyright-link">
+                  <span>Copyright &copy; <script>
+                      document.write(new Date().getFullYear())
+                    </script>, Jobiq.co.il</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////
+                     footer part end
+////////////////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////
+                     Go top buttom part start
+////////////////////////////////////////////////////////////////// -->
+      <div id="upToTopBtn">
+        <span><i class="fa-solid fa-chevron-up"></i></span>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////
+                   Go top buttom part end
+////////////////////////////////////////////////////////////////// -->
+      </div>
+      </main>
+
+
+
+  <!-- jQuery v3.5.1 Script -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap v5.3.3 Script-->
+  <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- flipper Script-->
+  <script src="static/vendor/flipper/jquery.flipper-responsive.js"></script>
+  <!-- owlcarousel Script-->
+  <script src="static/vendor/owlcarousel/owl.carousel.min.js"></script>
+  <!-- magnific Script-->
+  <script src="static/vendor/magnific/jquery.magnific-popup.min.js"></script>
+  <!-- fontawsome Script-->
+  <script src="static/vendor/fontawsome/fontawsome.js"></script>
+  <!-- classynav Script-->
+  <script src="static/vendor/classy-nav/classynav.js"></script>
+  <!-- main Script-->
+  <script src="static/js/script.js"></script>
+  <!-- Class Script -->
+  <script src="static/js/class.js"></script>
+
+  <style>
+    .pulse {
+        animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+  </style>
+
+</body>
+
+</html>

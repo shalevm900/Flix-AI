@@ -1,0 +1,2110 @@
+/* Custom more large devices */
+@media (min-width: 1400px) {
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css start
+////////////////////////////////////////////////////////////////////////// */
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):before,
+	.trailer-news-item:nth-child(8):after {
+		content: "";
+		width: 0;
+		height: 0;
+		border: 0 solid transparent;
+		position: absolute;
+		z-index: 5;
+		display: block;
+	}
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(8):before {
+		border-right-color: #1d1b24;
+		border-width: 0 55px 55px 0;
+		right: 0;
+		top: 0;
+	}
+
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):after {
+		border-right-color: #1d1b24;
+		border-width: 55px 55px 0 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(8):before {
+		top: 0;
+		left: 0;
+		border-left-color: #1d1b24;
+		border-width: 0 0 55px 55px;
+	}
+
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(8):after {
+		border-bottom: 55px solid #1d1b24;
+		border-right: 55px solid transparent;
+		left: 0;
+		bottom: 0;
+	}
+
+	.hero-item .trailer-thumbnail,
+	.hero-item .new-responsive-img,
+	.hero-item .trailer-news-image,
+	.standard-item:nth-child(4) .trailer-thumbnail,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(4) .trailer-news-image,
+	.standard-item:nth-child(5) .trailer-thumbnail,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(5) .trailer-news-image,
+	.standard-item:nth-child(8) .trailer-thumbnail,
+	.standard-item:nth-child(8) .new-responsive-img,
+	.standard-item:nth-child(8) .trailer-news-image {
+		height: 100%;
+	}
+
+	.hero-item .new-responsive-img,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(8) .new-responsive-img {
+		width: 100%;
+	}
+
+	.hero-item .trailer-caption,
+	.standard-item:nth-child(4) .trailer-caption,
+	.standard-item:nth-child(5) .trailer-caption,
+	.standard-item:nth-child(8) .trailer-caption {
+		position: absolute;
+		bottom: 0;
+		z-index: 3;
+		bottom: 32px;
+		left: 8px;
+	}
+
+	.hero-item .traile-title,
+	.hero-item .author,
+	.standard-item:nth-child(4) .traile-title,
+	.standard-item:nth-child(4) .author,
+	.standard-item:nth-child(5) .traile-title,
+	.standard-item:nth-child(5) .author,
+	.standard-item:nth-child(8) .traile-title,
+	.standard-item:nth-child(8) .author {
+		color: #fff;
+	}
+
+	.standard-item:nth-child(2),
+	.standard-item:nth-child(3),
+	.standard-item:nth-child(6),
+	.standard-item:nth-child(7) {
+		border-top: 55px solid #1d1b24;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1230px;
+		padding: 40px 15px 365px;
+		position: relative;
+	}
+
+	.footer-content-column {
+		width: 24.99%;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css start
+////////////////////////////////////////////////////////////////////////// */
+	.header-area {
+		width: 45%;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		display: flex;
+		flex-wrap: wrap;
+		width: 279px;
+		justify-content: center;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		padding: 5px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css start
+////////////////////////////////////////////////////////////////////////// */
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):before,
+	.trailer-news-item:nth-child(8):after {
+		content: "";
+		width: 0;
+		height: 0;
+		border: 0 solid transparent;
+		position: absolute;
+		z-index: 5;
+		display: block;
+	}
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(8):before {
+		border-right-color: #1d1b24;
+		border-width: 0 55px 55px 0;
+		right: 0;
+		top: 0;
+	}
+
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):after {
+		border-right-color: #1d1b24;
+		border-width: 55px 55px 0 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(8):before {
+		top: 0;
+		left: 0;
+		border-left-color: #1d1b24;
+		border-width: 0 0 55px 55px;
+	}
+
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(8):after {
+		border-bottom: 55px solid #1d1b24;
+		border-right: 55px solid transparent;
+		left: 0;
+		bottom: 0;
+	}
+
+	.hero-item .trailer-thumbnail,
+	.hero-item .new-responsive-img,
+	.hero-item .trailer-news-image,
+	.standard-item:nth-child(4) .trailer-thumbnail,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(4) .trailer-news-image,
+	.standard-item:nth-child(5) .trailer-thumbnail,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(5) .trailer-news-image,
+	.standard-item:nth-child(8) .trailer-thumbnail,
+	.standard-item:nth-child(8) .new-responsive-img,
+	.standard-item:nth-child(8) .trailer-news-image {
+		height: 100%;
+	}
+
+	.hero-item .new-responsive-img,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(8) .new-responsive-img {
+		width: 100%;
+	}
+
+	.hero-item .trailer-caption,
+	.standard-item:nth-child(1) .trailer-caption,
+	.standard-item:nth-child(4) .trailer-caption,
+	.standard-item:nth-child(5) .trailer-caption,
+	.standard-item:nth-child(8) .trailer-caption {
+		position: absolute;
+		bottom: 0;
+		z-index: 3;
+		bottom: 32px;
+		left: 8px;
+	}
+
+	.hero-item .traile-title,
+	.hero-item .author,
+	.standard-item:nth-child(4) .traile-title,
+	.standard-item:nth-child(4) .author,
+	.standard-item:nth-child(5) .traile-title,
+	.standard-item:nth-child(5) .author,
+	.standard-item:nth-child(8) .traile-title,
+	.standard-item:nth-child(8) .author {
+		color: #fff;
+	}
+
+	.standard-item:nth-child(2),
+	.standard-item:nth-child(3),
+	.standard-item:nth-child(6),
+	.standard-item:nth-child(7) {
+		border-top: 55px solid #1d1b24;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1230px;
+		padding: 40px 15px 365px;
+		position: relative;
+	}
+
+	.footer-content-column {
+		width: 24.99%;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css start
+////////////////////////////////////////////////////////////////////////// */
+	.user {
+		margin-left: 26px;
+	}
+
+	.header-area {
+		width: 53%;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 293px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li {
+		width: calc(100% / 3);
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+
+	p#slogan {
+		display: none;
+	}
+
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            content  css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		width: calc(100% / 4);
+		padding: 4px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content  css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.download-slide img {
+		width: 220px;
+		height: 238px;
+	}
+
+	.download-slider {
+		width: 52%;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css start
+////////////////////////////////////////////////////////////////////////// */
+	.trailer-news-wrapper {
+		grid-gap: 3px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):before,
+	.trailer-news-item:nth-child(8):after {
+		content: "";
+		width: 0;
+		height: 0;
+		border: 0 solid transparent;
+		position: absolute;
+		z-index: 5;
+		display: block;
+	}
+
+	.trailer-news-item:first-child:before,
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(5):before,
+	.trailer-news-item:nth-child(8):before {
+		border-right-color: #1d1b24;
+		border-width: 0 55px 55px 0;
+		right: 0;
+		top: 0;
+	}
+
+	.trailer-news-item:first-child:after,
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(5):after,
+	.trailer-news-item:nth-child(8):after {
+		border-right-color: #1d1b24;
+		border-width: 55px 55px 0 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.trailer-news-item:nth-child(4):before,
+	.trailer-news-item:nth-child(8):before {
+		top: 0;
+		left: 0;
+		border-left-color: #1d1b24;
+		border-width: 0 0 55px 55px;
+	}
+
+	.trailer-news-item:nth-child(4):after,
+	.trailer-news-item:nth-child(8):after {
+		border-bottom: 55px solid #1d1b24;
+		border-right: 55px solid transparent;
+		left: 0;
+		bottom: 0;
+	}
+
+	.hero-item .trailer-thumbnail,
+	.hero-item .new-responsive-img,
+	.hero-item .trailer-news-image,
+	.standard-item:nth-child(1) .trailer-thumbnail,
+	.standard-item:nth-child(1) .new-responsive-img,
+	.standard-item:nth-child(1) .trailer-news-image,
+	.standard-item:nth-child(4) .trailer-thumbnail,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(4) .trailer-news-image,
+	.standard-item:nth-child(5) .trailer-thumbnail,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(5) .trailer-news-image,
+	.standard-item:nth-child(8) .trailer-thumbnail,
+	.standard-item:nth-child(8) .new-responsive-img,
+	.standard-item:nth-child(8) .trailer-news-image {
+		height: 100%;
+	}
+
+	.hero-item .new-responsive-img,
+	.standard-item:nth-child(1) .new-responsive-img,
+	.standard-item:nth-child(4) .new-responsive-img,
+	.standard-item:nth-child(5) .new-responsive-img,
+	.standard-item:nth-child(8) .new-responsive-img {
+		width: 100%;
+	}
+
+	.hero-item .trailer-caption,
+	.standard-item:nth-child(1) .trailer-caption,
+	.standard-item:nth-child(4) .trailer-caption,
+	.standard-item:nth-child(5) .trailer-caption,
+	.standard-item:nth-child(8) .trailer-caption {
+		position: absolute;
+		bottom: 0;
+		z-index: 3;
+		bottom: 32px;
+		left: 8px;
+	}
+
+	.hero-item .traile-title,
+	.hero-item .author,
+	.standard-item:nth-child(4) .traile-title,
+	.standard-item:nth-child(4) .author,
+	.standard-item:nth-child(5) .traile-title,
+	.standard-item:nth-child(5) .author,
+	.standard-item:nth-child(8) .traile-title,
+	.standard-item:nth-child(8) .author {
+		color: #fff;
+	}
+
+	.standard-item:nth-child(2),
+	.standard-item:nth-child(3),
+	.standard-item:nth-child(6),
+	.standard-item:nth-child(7) {
+		border-top: 55px solid #1d1b24;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css start
+////////////////////////////////////////////////////////////////////////// */
+	.single_movie_data .table {
+		font-size: 12px;
+	}
+
+	.single_movie_data p {
+		font-size: 12px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 164px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1230px;
+		padding: 40px 15px 365px;
+		position: relative;
+	}
+
+	.footer-content-column {
+		width: 24.99%;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            sidebar css start
+////////////////////////////////////////////////////////////////////////// */
+	body .sidebar {
+		position: fixed;
+		top: 0;
+		z-index: -1;
+	}
+
+
+	body .sidebar nav {
+		top: 0;
+	}
+
+	body .sidebar nav {
+		height: 100% !important;
+	}
+
+	.sb-toggle-left {
+		display: inline-block;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 293px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            sidebar css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css start
+////////////////////////////////////////////////////////////////////////// */
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.breakpoint-on .classynav ul li a {
+		text-align: center;
+	}
+
+	.header-area {
+		width: 20%;
+		top: 0px;
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classy-nav-container {
+		background-color: #282c39;
+	}
+
+	.header-area {
+		position: absolute;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-nav-container {
+		padding: 0 24px;
+		display: inline-block;
+	}
+
+
+	.classy-nav-container .classy-navbar {
+		height: 80px;
+	}
+
+	.classy-nav-container .classy-navbar .nav-brand {
+		max-width: 90px;
+		margin-right: 15px;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-navbar-toggler .navbarToggler span {
+		background-color: #ffffff;
+	}
+
+	.breakpoint-on .classy-navbar .classy-menu {
+		background-color: #000;
+		box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.user {
+		text-align: center;
+		margin: 0 90px;
+	}
+
+	.user .dropdown-menu a {
+		background-color: #000;
+	}
+
+	.user .dropdown-menu {
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+	}
+
+	.user .dropdown {
+		display: block !important;
+	}
+
+	.dropdown-menu.show {
+		background: #565e64;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a {
+		border-radius: 0;
+	}
+
+	.dropdown-menu {
+		padding: 0;
+	}
+
+
+	input,
+	p,
+	textarea,
+	ul li {
+		font-size: 13px;
+	}
+
+	#main-menu .main-header {
+		position: relative;
+	}
+
+	#main-menu .main-header .inner-container {
+		text-align: center;
+	}
+
+	#main-menu .main-header .logo {
+		float: left;
+		margin: 8px 38px 0 12px;
+	}
+
+	#main .header-secondary {
+		position: absolute;
+		top: 80px;
+		left: 0;
+		float: left;
+		width: 100%;
+	}
+
+	#main .header-secondary .inner-container {
+		padding-left: 30px;
+	}
+
+	p#slogan {
+		display: none;
+	}
+
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css start
+////////////////////////////////////////////////////////////////////////// */
+	.main-banner {
+		min-height: 475px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            slider css start
+////////////////////////////////////////////////////////////////////////// */
+	.slider {
+		background: white;
+		box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            slider css start
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		width: calc(100% / 3);
+	}
+
+	.movie-details {
+		padding: 0px 10px;
+	}
+
+	.movie-details h2 {
+		font-size: 12px;
+		margin-bottom: 2px;
+	}
+
+	.movie-details .rating {
+		margin-bottom: 11px;
+		gap: 0;
+	}
+
+	.movie-details .tags span {
+		font-size: 8px;
+	}
+
+	.movie-details .desc {
+		font-size: 13px;
+	}
+
+	.movie-details a.watch-now .button-text {
+		padding: 14px 0;
+		font-size: 11px;
+	}
+
+	.movie-details a.watch-now {
+		width: 140px;
+		height: auto;
+	}
+
+	.pagination a,
+	.pagination span {
+		padding: 5px 10px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css start
+////////////////////////////////////////////////////////////////////////// */
+	.tv-details-seasons {
+		margin-bottom: 40px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css start
+////////////////////////////////////////////////////////////////////////// */
+	.collection-txt {
+		width: 100%;
+		text-align: start;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 200px;
+	}
+
+	#channels .channels-item {
+		margin: 12px 12px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css start
+////////////////////////////////////////////////////////////////////////// */
+	.coming_soon_details h4 {
+		font-size: 40px;
+	}
+
+	.coming_soon_details h3 {
+		font-size: 63px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.download-slider {
+		display: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1230px;
+		padding: 40px 15px 365px;
+		position: relative;
+	}
+
+	.footer-content-column {
+		width: 24.99%;
+	}
+
+	.footer-call-to-action-button {
+		padding: 12px 29px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            sidebar css start
+////////////////////////////////////////////////////////////////////////// */
+	body .sidebar {
+		position: fixed;
+		top: 0;
+		z-index: -1;
+	}
+
+	body .sidebar nav {
+		height: 100% !important;
+	}
+
+	body .sidebar nav {
+		top: 0;
+	}
+
+	body.overview #main {
+		background: #1d1b24;
+	}
+
+
+	.sb-toggle-left {
+		display: inline-block;
+	}
+
+	.header-secondary .filters ul li.open.abc-filter ul {
+		width: 200px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						sidebar css start
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+						main menu css start
+////////////////////////////////////////////////////////////////////////// */
+	#main-menu .main-header {
+		position: relative;
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.breakpoint-on .classynav ul li a {
+		text-align: center;
+	}
+
+	.header-area {
+		width: 20%;
+		top: 0px;
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classy-nav-container {
+		background-color: #282c39;
+	}
+
+	.header-area {
+		position: absolute;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-nav-container {
+		padding: 0 24px;
+		display: inline-block;
+	}
+
+
+	.classy-nav-container .classy-navbar {
+		height: 80px;
+	}
+
+	.classy-nav-container .classy-navbar .nav-brand {
+		max-width: 90px;
+		margin-right: 15px;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-navbar-toggler .navbarToggler span {
+		background-color: #ffffff;
+	}
+
+	.breakpoint-on .classy-navbar .classy-menu {
+		background-color: #000;
+		box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.user {
+		text-align: center;
+		margin: 0 90px;
+	}
+
+	.user .dropdown-menu a {
+		background-color: #000;
+	}
+
+	.user .dropdown-menu {
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+	}
+
+	.user .dropdown {
+		display: block !important;
+	}
+
+	.dropdown-menu.show {
+		background: #565e64;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a {
+		border-radius: 0;
+	}
+
+	.dropdown-menu {
+		padding: 0;
+	}
+
+
+	input,
+	p,
+	textarea,
+	ul li {
+		font-size: 10px;
+	}
+
+	.header-secondary {
+		position: absolute;
+	}
+
+	.header-secondary .filters ul li .dropdown-toggle {
+		padding: 0 5px;
+	}
+
+	.header-secondary .inner-container {
+		padding-left: 29px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 225px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	p#slogan {
+		display: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css start
+////////////////////////////////////////////////////////////////////////// */
+	.main-banner {
+		margin-bottom: 40px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+						slider css start
+////////////////////////////////////////////////////////////////////////// */
+	.slider {
+		margin-top: 50px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						slider css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css start
+////////////////////////////////////////////////////////////////////////// */
+	.collection-txt {
+		width: 100%;
+		text-align: start;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+						content css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		width: calc(100% / 2);
+	}
+
+	.movie-details h1 {
+		font-size: 16px;
+	}
+
+	.movie-details h2 {
+		font-size: 10px;
+		margin-bottom: 3px;
+	}
+
+	.movie-details .rating {
+		gap: 0px;
+	}
+
+	.movie-details .tags span {
+		font-size: 11px;
+	}
+
+	.movie-details .desc {
+		margin-bottom: 16px;
+		font-size: 12px;
+	}
+
+	.movie-details a.watch-now .button-text {
+		padding: 15px 0;
+		font-size: 10px;
+	}
+
+	.movie-details a.watch-now {
+		width: 134px;
+	}
+
+	.traile-title {
+		font-size: 15px;
+	}
+
+	.trailer-news-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+						 single movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.single_movie_data .table> :not(caption)>*>* {
+		padding: 6px 0px !important;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						single movie css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css start
+////////////////////////////////////////////////////////////////////////// */
+	.tv-details-seasons {
+		margin-bottom: 40px;
+	}
+
+	.movie_info h3 {
+		font-size: 20px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+						Coming Out css start
+////////////////////////////////////////////////////////////////////////// */
+	#Coming-Out .Coming-Out-info h1 {
+		font-size: 55px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						Coming Out css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css start
+////////////////////////////////////////////////////////////////////////// */
+	.coming_soon_details h4 {
+		font-size: 30px;
+	}
+
+	.coming_soon_details h3 {
+		font-size: 48px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 136px;
+	}
+
+	#channels .channels-item {
+		margin: 12px 12px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+						download-movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.download-slider {
+		display: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+						download-movie css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1230px;
+		padding: 40px 15px 329px;
+		position: relative;
+	}
+
+	.footer-wave-svg {
+		height: 50px;
+	}
+
+	.footer-content-column {
+		width: 24.99%;
+	}
+
+	.footer-call-to-action-button {
+		font-size: 10px;
+		line-height: 18px;
+		padding: 12px 4px;
+	}
+
+	.footer-content-column ul li a {
+		font-size: 13px;
+	}
+
+	.footer-menu-name {
+		font-size: 14px;
+		border-left: 3px solid #fec50d;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            go top button css start
+////////////////////////////////////////////////////////////////////////// */
+#up-to-top {
+	width: 50px;
+	height: 50px;
+}
+	/* //////////////////////////////////////////////////////////////////////////
+                            go top button css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            sidebar css start
+////////////////////////////////////////////////////////////////////////// */
+	body .sidebar {
+		position: fixed;
+		top: 0;
+		z-index: -1;
+	}
+
+
+	body .sidebar nav {
+		top: 0;
+	}
+
+	body .sidebar nav {
+		height: 100% !important;
+	}
+
+	body.overview #main {
+		background: #1d1b24;
+	}
+
+
+	.sb-toggle-left {
+		display: inline-block;
+	}
+
+	input,
+	p,
+	textarea,
+	ul li {
+		font-size: 10px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 200px;
+	}
+
+	p#slogan {
+		display: none;
+	}
+
+	.inner-container {
+		padding: 0 20px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            sidebar css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css start
+////////////////////////////////////////////////////////////////////////// */
+	#main-menu .main-header {
+		position: relative;
+	}
+
+	#main-menu .main-header .logo {
+		margin: 6px 0;
+		padding: 0;
+	}
+
+	.header-area {
+		width: 20%;
+		top: 0px;
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classy-nav-container {
+		background-color: #282c39;
+	}
+
+	.header-area {
+		position: absolute;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-nav-container {
+		padding: 0 17px;
+		display: inline-block;
+	}
+
+
+	.classy-nav-container .classy-navbar {
+		height: 80px;
+	}
+
+	.classy-nav-container .classy-navbar .nav-brand {
+		max-width: 90px;
+		margin-right: 15px;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li a {
+		border-bottom: none;
+		font-size: 14px;
+	}
+
+	.classy-navbar-toggler .navbarToggler span {
+		background-color: #ffffff;
+	}
+
+	.breakpoint-on .classy-navbar .classy-menu {
+		background-color: #000;
+		box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	.breakpoint-on .classynav>ul>li>a {
+		background-color: #000;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.classycloseIcon .cross-wrap span {
+		background-color: #ffffff;
+	}
+
+	.user {
+		/* display: inline-block; */
+		text-align: center;
+		margin: 0 90px;
+	}
+
+	.user .dropdown-menu a {
+		background-color: #000;
+	}
+
+	.breakpoint-on .classynav ul li a {
+		padding: 0 21px;
+	}
+
+	.user .dropdown {
+		display: block !important;
+	}
+
+	.dropdown-menu.show {
+		background: #565e64;
+		border-radius: 0px;
+	}
+
+	.classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a {
+		border-radius: 0;
+	}
+
+	.dropdown-menu {
+		padding: 0;
+	}
+
+	/* header-secondary */
+	#main .header-secondary .filters>ul>li {
+		flex: 1;
+		line-height: 40px;
+		margin: 10px 10px 10px 0;
+
+	}
+
+	.sb-toggle-left .menu-icon-text {
+		display: none;
+	}
+
+	#main .header-secondary {
+		top: 130px;
+		height: 60px;
+		background: #2f3444;
+	}
+
+	#main .header-secondary .inner-container {
+		padding-left: 20px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large {
+		left: 0;
+		right: 0;
+		width: auto;
+		margin-top: 0;
+		box-sizing: border-box;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li input[type="checkbox"]+label {
+		line-height: 40px;
+	}
+
+	#main .header-secondary .filters ul li.search {
+		height: auto;
+		line-height: 38px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -50px;
+		padding: 5px 20px;
+		background: #1d1b24;
+		margin: 0px 0;
+	}
+
+	.header-secondary {
+		position: absolute;
+	}
+
+	#main .header-secondary .filters {
+		float: none;
+	}
+
+	#main .header-secondary .filters ul li .dropdown-toggle {
+		display: block;
+	}
+
+	#main .header-secondary .filters>ul>li {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	#main .header-secondary .filters>ul>li.quality-filter {
+		margin: 10px 3px 10px 0;
+	}
+
+	#main .header-secondary .filters>ul>li.genre-filter {
+		margin: 10px 3px 10px 0;
+		line-height: 40px;
+		position: inherit;
+	}
+
+	#main .header-secondary .filters>ul>li.abc-filter {
+		margin: 10px 3px 10px 0;
+		line-height: 40px;
+		position: inherit;
+	}
+
+	#main .header-secondary {
+		height: auto;
+		padding: 10px 0;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.open>ul {
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		right: -41px;
+	}
+
+	.header-secondary .filters ul li.open.abc-filter ul {
+		width: 326px;
+	}
+
+	#main .header-secondary .filters ul li.search form {
+		position: relative;
+	}
+
+	#main .header-secondary .filters ul li.search form i {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -7px;
+	}
+
+	#main .header-secondary .filters ul li.search form input {
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li a::before {
+		left: 3px;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li a {
+		padding: 0 15px 0 15px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            logo slider css start
+////////////////////////////////////////////////////////////////////////// */
+	.slider .slide-track {
+		-webkit-animation: scroll 40s linear infinite;
+		animation: scroll 16s linear infinite;
+		width: calc(29px * 50);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            logo slider css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css start
+////////////////////////////////////////////////////////////////////////// */
+	.main-banner {
+		margin-bottom: 40px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            slider css start
+////////////////////////////////////////////////////////////////////////// */
+	.slider::before,
+	.slider::after {
+		background: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            slider css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            single movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.movie_info {
+		margin-top: 12px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            single movie css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css start
+////////////////////////////////////////////////////////////////////////// */
+
+	.main-banner h4 {
+		font-size: 13px;
+	}
+
+	.trending-left-text {
+		position: absolute;
+		bottom: 9px;
+		left: 12px;
+		padding-right: 0;
+	}
+
+	.trending-left-text ul .title {
+		font-size: 9px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 8px;
+	}
+
+	.trending-left-text ul .view {
+		font-size: 9px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 8px;
+	}
+
+	.trending-left-text ul .time {
+		font-size: 9px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 8px;
+	}
+
+	.trending-left-text .details li h5 strong {
+		font-size: 9px;
+	}
+
+	.trending-left-text .details li h5 {
+		font-size: 9px;
+	}
+
+	.main-banner h6 {
+		font-size: 9px;
+		margin-bottom: 0px;
+	}
+
+	.trending-left-text .details .star-rating i {
+		font-size: 9px;
+	}
+
+	.play-button {
+		width: 30px;
+		height: 30px;
+	}
+
+	.movie-play-button a i {
+		font-size: 12px;
+	}
+
+	.trending-movies .movie-play-button {
+		right: 0px;
+		bottom: 0px;
+	}
+
+	.trending-movies .movie-play-button2 {
+		right: 10px;
+		top: 30px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css start
+////////////////////////////////////////////////////////////////////////// */
+
+	#content .item {
+		width: calc(100% / 2);
+	}
+
+	#content {
+		padding-top: 50px;
+	}
+
+	.movie-details h2 {
+		font-size: 11px;
+		margin-bottom: 2px;
+	}
+
+	.movie-details .desc {
+		margin-bottom: 4px;
+		font-size: 9px;
+	}
+
+	.movie-details .rating {
+		margin-bottom: 15px;
+		gap: 0px;
+	}
+
+	.movie-details {
+		padding: 12px 12px;
+	}
+
+	.movie-details .tags span {
+		padding: 2.6px 3.4px;
+		font-size: 8px;
+	}
+
+	.movie-details a.watch-now .button-text {
+		font-size: 12px;
+		padding: 13px 0;
+	}
+
+	.movie-details a.watch-now {
+		width: 142px;
+	}
+
+	.pagination a,
+	.pagination span {
+		padding: 5px 5px;
+		font-size: 12px;
+	}
+
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css start
+////////////////////////////////////////////////////////////////////////// */
+	.collection-txt {
+		width: 100%;
+		text-align: start;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            collection css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            recommendation css start
+////////////////////////////////////////////////////////////////////////// */
+	.recommendation-movie .owl-nav {
+		top: -67px;
+		right: -43px;
+	}
+
+	.recommendation-movie .owl-nav .owl-prev {
+		margin-right: -40px;
+	}
+
+	.recommendation-movie .owl-nav .owl-next {
+		margin-left: -40px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            recommendation css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            Coming Out css start
+////////////////////////////////////////////////////////////////////////// */
+	#Coming-Out .Coming-Out-info h1 {
+		font-size: 33px;
+	}
+
+	#Coming-Out .Coming-Out-info h6 {
+		font-size: 20px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            Coming Out css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            user profile  css start
+////////////////////////////////////////////////////////////////////////// */
+	.personal-details .user-edit {
+		font-size: 12px;
+	}
+
+	.personal-details span {
+		line-height: 1.2;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            user profile css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css start
+////////////////////////////////////////////////////////////////////////// */
+	.coming_soon_details h4 {
+		font-size: 12px;
+	}
+
+	.coming_soon_details h3 {
+		font-size: 27px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            coming soon  css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css start
+////////////////////////////////////////////////////////////////////////// */
+	.tv-details-seasons {
+		margin-bottom: 40px;
+	}
+
+	.movie_info h3 {
+		font-size: 20px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single tv series css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css start
+////////////////////////////////////////////////////////////////////////// */
+	.download-slider {
+		display: none;
+	}
+
+	#download-movies {
+		padding: 60px 0;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            download-movie css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css start
+////////////////////////////////////////////////////////////////////////// */
+	.traile-title {
+		font-size: 12px;
+	}
+
+	.traile-title,
+	.author {
+		font-size: 12px;
+	}
+
+	.trailer-news-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer blog css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                             single blog css start
+////////////////////////////////////////////////////////////////////////// */
+	.heading-section h4 {
+		font-size: 15px;
+	}
+
+	.single-blog-page figure {
+		margin: 12px 6px;
+		padding: 10px 10px;
+	}
+
+	.single-blog-img .blog-date h2 {
+		font-size: 20px;
+	}
+
+	.single-blog-img .blog-date h3 {
+		font-size: 12px;
+	}
+
+	.single-blog-img .blog-date {
+		right: 7px;
+		top: 7px;
+		width: 70px;
+		height: 70px;
+		border: 2px solid #fff;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                             single blog css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 146px;
+	}
+
+	#channels .channels-item {
+		margin: 10px 10px;
+	}
+
+	#channels .channels-item {
+		width: calc(100% / 3);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            commentbox  css start
+////////////////////////////////////////////////////////////////////////// */
+	.commentbox-button button {
+		width: 35%;
+	}
+
+	.commentbox-top h3 {
+		font-size: 14px;
+	}
+
+	#commentbox .title {
+		font-size: 12px;
+	}
+
+	.comment-nav .nav {
+		display: block ruby;
+	}
+
+	.comment_area .comment-content .comment-meta p {
+		font-size: 10px;
+	}
+
+	.comment_area .comment-content .comment-meta a.like,
+	.comment_area .comment-content .comment-meta a.reply {
+		padding: 5px 8px 5px;
+		font-size: 8px;
+	}
+
+	.comment_area .comment-content .comment-meta .post-date {
+		font-size: 7px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            commentbox  css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css start
+////////////////////////////////////////////////////////////////////////// */
+	.footer-content {
+		padding: 40px 15px 900px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            footer css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            go top button css start
+////////////////////////////////////////////////////////////////////////// */
+#up-to-top {
+	width: 50px;
+	height: 50px;
+}
+	/* //////////////////////////////////////////////////////////////////////////
+                            go top button css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+/* Custom more small devices */
+@media (min-width: 341px) and (max-width: 399.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	#main .header-secondary .inner-container {
+		height: initial;
+	}
+
+	#main .header-secondary .filters>ul>li {
+		font-size: 10px;
+	}
+
+	.header-secondary .filters ul li .dropdown-toggle {
+		padding: 0 6px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 180px;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li a {
+		padding: 0 0px 0 40px;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li {
+		width: calc(100% / 4);
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li a::before {
+		left: 25px;
+		top: 50%;
+	}
+
+	input,
+	p,
+	textarea,
+	ul li {
+		font-size: 8px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css start
+////////////////////////////////////////////////////////////////////////// */
+	.header-secondary .filters ul li.open.abc-filter ul {
+		width: 0;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            banner css end
+////////////////////////////////////////////////////////////////////////// */
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		width: calc(100% / 1);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer css start
+////////////////////////////////////////////////////////////////////////// */
+	.trailer-news-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 114px;
+	}
+
+	#channels .channels-item {
+		margin: 10px 10px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+}
+
+@media (min-width: 320px) and (max-width: 340.98px) {
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	#main .header-secondary .filters>ul>li {
+		font-size: 11px;
+	}
+
+	.header-secondary .filters ul li .dropdown-toggle {
+		padding: 0 6px;
+	}
+
+	.header-secondary .filters ul li.open.abc-filter ul li {
+		width: 37px;
+		line-height: 37px;
+	}
+
+	#main .header-secondary .filters ul li.dropdown.quality-filter.open>ul {
+		width: 160px;
+	}
+
+	.header-secondary .filters ul li.dropdown.open>ul.dropdown-menu-large li {
+		display: inline-block;
+		width: calc(100% / 3);
+		line-height: 1;
+		padding: 0;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            main menu css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css start
+////////////////////////////////////////////////////////////////////////// */
+	#content .item {
+		width: calc(100% / 1);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            content css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css start
+////////////////////////////////////////////////////////////////////////// */
+	#channels .channels-item img {
+		width: 104px;
+	}
+
+	#channels .channels-item {
+		margin: 10px 10px;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            channels css end
+////////////////////////////////////////////////////////////////////////// */
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer css start
+////////////////////////////////////////////////////////////////////////// */
+	.trailer-news-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////
+                            trailer css end
+////////////////////////////////////////////////////////////////////////// */
+}
